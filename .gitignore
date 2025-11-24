@@ -3,4 +3,6 @@
 !nvim/
 !ghostty/
 !starship.toml
+!.zshrc.d/
+!.zshrc
 
