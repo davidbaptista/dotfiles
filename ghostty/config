@@ -1,0 +1,6 @@
+background-opacity = 0.9
+font-family = "Hack"
+font-size = 12
+macos-titlebar-style = "hidden"
+working-directory = "home"
+theme = TokyoNight Night
