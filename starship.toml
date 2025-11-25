@@ -242,6 +242,7 @@ format = " [pkg](italic dimmed) [$symbol$version]($style)"
 version_format = "${raw}"
 symbol = "◨ "
 style = "dimmed yellow italic bold"
+disabled = true
 
 [swift]
 format = " [sw](italic) [${symbol}${version}]($style)"
