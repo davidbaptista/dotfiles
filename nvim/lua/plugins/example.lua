@@ -8,7 +8,7 @@ if true then return {} end
 -- * add extra plugins
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
-return {
+--[[return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
@@ -172,8 +172,10 @@ return {
     opts = function()
       return {
         --[[add your custom lualine config here]]
-      }
-    end,
+--[[     }
+ end,
+
+  --
   },
 
   -- use mini.starter instead of alpha
@@ -194,4 +196,4 @@ return {
       },
     },
   },
-}
+}]]
