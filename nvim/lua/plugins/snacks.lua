@@ -21,11 +21,16 @@ return {
     {
       "<leader>t",
       function()
-        Snacks.terminal.toggle(nil, {
-          interactive = true,
-        })
+        Snacks.terminal.toggle()
       end,
       desc = "Toggle Terminal",
+    },
+    {
+      "<leader>T",
+      function()
+        Snacks.terminal.open()
+      end,
+      desc = "New Terminal",
     },
   },
 }
