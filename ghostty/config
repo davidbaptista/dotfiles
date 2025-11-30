@@ -4,3 +4,6 @@ font-size = 12
 macos-titlebar-style = "tabs"
 working-directory = "home"
 theme = TokyoNight Night
+keybind = opt+backspace=esc:w
+macos-option-as-alt = true
+keybind = alt+backspace=text:\x17

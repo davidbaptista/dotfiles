@@ -13,6 +13,10 @@ return {
             mode = "t",
             desc = "Clear terminal",
           },
+
+          term_left = { "<M-Left>", "<C-\\><C-n>b", mode = "t", desc = "Word left" },
+          term_right = { "<M-Right>", "<C-\\><C-n>w", mode = "t", desc = "Word right" },
+          term_del = { "<M-BS>", "<C-w>", mode = "t", desc = "Delete word" },
         },
       },
     },
