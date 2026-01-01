@@ -3,6 +3,11 @@ return {
   opts = {
     terminal = {
       win = {
+        style = "terminal",
+        wo = {
+          winblend = 0, -- No transparency
+        },
+        bo = {},
         keys = {
           nav_l = false,
 
