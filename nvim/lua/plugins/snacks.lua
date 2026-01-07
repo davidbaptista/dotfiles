@@ -25,6 +25,13 @@ return {
   },
   keys = {
     {
+      "<leader>e",
+      function()
+        Snacks.explorer.open({ cwd = vim.fn.getcwd() })
+      end,
+      desc = "Explorer Snacks",
+    },
+    {
       "<leader>t",
       function()
         Snacks.terminal.toggle()
